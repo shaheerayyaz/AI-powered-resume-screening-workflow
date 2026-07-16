@@ -1,8 +1,8 @@
-# Recruitment AI — Automated Resume Screening Workflow
+# AI — Powered Resume Screening Workflow
 
 An n8n automation that watches a recruiter's inbox for incoming resumes, extracts and standardizes the candidate's information regardless of file format, evaluates the resume against a job description using an LLM, and logs a structured screening report to Google Sheets — with zero manual triage.
 
-🎥 **Demo video:** [https://drive.google.com/file/d/1tkDyikp3QGl4CdO6xDPKWYLustcKClDj/view?usp=sharing]
+**[Watch a 90-second demo](https://drive.google.com/file/d/1tkDyikp3QGl4CdO6xDPKWYLustcKClDj/view?usp=sharing)**
 
 ---
 
@@ -69,15 +69,6 @@ A new row is appended to a shared "Resume Screener" spreadsheet containing: time
 
 - The job description is currently a fixed file (single role); making it dynamic per posting would be the natural next step.
 - No de-duplication logic yet if the same candidate applies twice.
-- Runs on personal n8n/Drive/Sheets accounts — not yet deployed on a persistent hosted instance.
-
-## Repository contents
-
-- `Recruitment_AI.json` — exported n8n workflow (importable into any n8n instance)
-- `README.md` — this file
-- `screenshots/` — workflow canvas views (optional but recommended)
-- Demo video link above
-
----
+ 
 
 *Built by Shaheer as a self-directed project exploring practical LLM integration into real-world automation workflows.*
