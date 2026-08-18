@@ -2,7 +2,7 @@
 
 An n8n automation that watches a recruiter's inbox for incoming resumes, extracts and standardizes the candidate's information regardless of file format, evaluates the resume against a job description using an LLM, and logs a structured screening report to Google Sheets — with zero manual triage.
 
-**[Watch a 90-second demo](https://drive.google.com/file/d/1tkDyikp3QGl4CdO6xDPKWYLustcKClDj/view?usp=sharing)**
+**[Watch a 90-second demo](https://www.loom.com/share/2ebbc6429a6046fb987ca7b495feb5e0)**
 
 ---
 
